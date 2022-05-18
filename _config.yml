@@ -80,10 +80,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://raw.githubusercontent.com/fisenkodv/landing/feature/jekyll
+img_cdn: https://raw.githubusercontent.com/fisenkodv/landing/main
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/img/profile-photos/avatar.jpg
+avatar: /assets/img/profile-photos/avatar.jpg
 
 # boolean type, the global switch for ToC in posts.
 toc: true
