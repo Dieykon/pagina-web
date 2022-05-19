@@ -22,9 +22,10 @@ Let's get started.
 In this section I'm going to go through the steps I did to create a device that will get temperature, and humidity data from the [DHT22](https://amzn.to/2Jnt5lg) sensor and send it to a receiver, see Part 3. Building Receiving Device section.
 
 The final device looks as in the images below:
-![IMG_2652.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2652.JPG){: w="312" h="234" }
-![IMG_2649.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2649.JPG){: w="312" h="234" }
-![IMG_2651.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2651.JPG){: w="312" h="234" }
+
+![IMG_2652.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2652.JPG){: w="33%" }
+![IMG_2649.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2649.JPG){: w="33%" }
+![IMG_2651.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2651.JPG){: w="33%" }
 
 ### Part 2.1. Configuring XBee
 
