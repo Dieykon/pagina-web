@@ -23,9 +23,9 @@ In this section I'm going to go through the steps I did to create a device that 
 
 The final device looks as in the images below:
 
-![IMG_2652.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2652.JPG){: w="33%" }
-![IMG_2649.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2649.JPG){: w="33%" }
-![IMG_2651.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2651.JPG){: w="33%" }
+![IMG_2652.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2652.JPG){: w="33%" .left }
+![IMG_2649.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2649.JPG){: w="33%" .left }
+![IMG_2651.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2651.JPG){: w="33%" .left }
 
 ### Part 2.1. Configuring XBee
 
