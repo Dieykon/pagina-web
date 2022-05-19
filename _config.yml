@@ -23,10 +23,10 @@ timezone: America/New_York
 
 title: Dmitry Fisenko # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Software Engineer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  New Jersey based software engineer with 10+ years of experience in software development. Detail oriented with a passion for web development.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://fisenkodv.github.io"
@@ -44,11 +44,11 @@ social:
   email: dmitry@fisenko.net # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    - https://twitter.com/fisenkodv # change to your twitter homepage
+    - https://github.com/fisenkodv # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/fisenkodv
 
 google_site_verification: # fill in to your verification string
 
