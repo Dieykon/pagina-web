@@ -83,7 +83,7 @@ theme_mode: # [light|dark]
 img_cdn: https://raw.githubusercontent.com/fisenkodv/landing/main
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/profile-photos/avatar.jpg
+avatar: /assets/img/profile-photos/avatar.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true
