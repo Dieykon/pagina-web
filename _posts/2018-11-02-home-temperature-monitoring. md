@@ -5,6 +5,8 @@ categories: [IoT]
 tags: [arduino]
 ---
 
+The story is about how I built a homebrew temperature/humidity monitoring system using Arduino, XBee, and Raspberry Pi.
+
 ## Part 1. Abstract
 
 The main idea is to build a system to monitor temperature and humidity in my house and have access from a phone, tablet, laptop, etc. Additionally, I want to have historical data and show temperature, and humidity charts for the last 24 hours, month, and year, for instance.
