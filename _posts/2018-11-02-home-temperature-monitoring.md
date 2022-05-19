@@ -25,3 +25,13 @@ The final device looks as in the images below:
 ![IMG_2652.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2652.JPG){: w="312" h="234" }
 ![IMG_2649.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2649.JPG){: w="312" h="234" }
 ![IMG_2651.JPG](/assets/img/blog/home-temperature-monitoring/IMG_2651.JPG){: w="312" h="234" }
+
+### Part 2.1. Configuring XBee
+
+Each [XBee](https://amzn.to/2Jnuet4) device must be configured to communicate with another [XBee](https://amzn.to/2Jnuet4) device, also please note that here I use XBee Series 1, see some details in the following posts [XBee Series 1 vs. Series 2](http://icircuit.net/xbee-series-1-vs-series-2/289), [XBee Buying Guide](https://www.sparkfun.com/pages/xbee_guide).
+
+For the configuration, I used [XCTU](https://www.digi.com/products/xbee-rf-solutions/xctu-software/xctu) - which allows you to configure XBee modules and see received data sent by other XBee modules if you would like to debug how XBee module configuration works. To connect the XBee module via USB I used [Waveshare XBee USB Adapter](https://amzn.to/2PZZ9OF).
+
+You could follow the following steps to set up XBee modules:
+
+1. In XCTU click on Add device to add USB connected XBee module
