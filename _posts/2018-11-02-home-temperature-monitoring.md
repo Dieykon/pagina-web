@@ -11,7 +11,7 @@ The story is about how I built a homebrew temperature/humidity monitoring system
 
 The main idea is to build a system to monitor temperature and humidity in my house and have access from a phone, tablet, laptop, etc. Additionally, I want to have historical data and show temperature, and humidity charts for the last 24 hours, month, and year, for instance.
 
-To build the monitoring system I'm going to use [Arduino Pro Mini](https://amzn.to/2SriJVC) as the main device which will read data from [DHT22](https://amzn.to/2Jnt5lg) temperature/humidity sensor and send them by [Digi ZigBee Series 1](https://amzn.to/2Jnuet4). As a receiving device, I will use Raspberry PI 3 with connected [Digi ZigBee Series 1](https://amzn.to/2Jnuet4) but configured as the receiver.
+To build the monitoring system I'm going to use [Arduino Pro Mini](https://amzn.to/2SriJVC) as the main device which will read data from [DHT22](https://amzn.to/2Jnt5lg) temperature/humidity sensor and send them by [Digi ZigBee Series 1](https://amzn.to/2Jnuet4). As a receiving device, I will use Raspberry Pi 3 with connected [Digi ZigBee Series 1](https://amzn.to/2Jnuet4) but configured as the receiver.
 
 All code is available on [GitHub](https://github.com/fisenkodv/home-temperature-monitoring), feel free to fork and use the code.
 
@@ -95,13 +95,13 @@ Probably when you upload the code into your Arduino you will need to disconnect 
 
 ## Part 3. Building Receiving Device
 
-### Part 3.1. Configuring Raspberry PI
+### Part 3.1. Configuring Raspberry Pi
 
-Before running any code on Raspberry PI, you need to connect [Digi ZigBee Series 1](https://amzn.to/2Jnuet4). In my case, I used the [XBee USB Adapter](https://amzn.to/2PZZ9OF) for it.
+Before running any code on Raspberry Pi, you need to connect [Digi ZigBee Series 1](https://amzn.to/2Jnuet4). In my case, I used the [XBee USB Adapter](https://amzn.to/2PZZ9OF) for it.
 
-Now you are ready to upload the code into your Raspberry PI. The easiest way is to use SSH. _In this post, I'm not going to describe how to install Raspbian and configure SSH, but you could easily google it._
+Now you are ready to upload the code into your Raspberry Pi. The easiest way is to use SSH. _In this post, I'm not going to describe how to install Raspbian and configure SSH, but you could easily google it._
 
-Software for the Raspberry PI(receiver) consist from two parts:
+Software for the Raspberry Pi(receiver) consist from two parts:
 
 - A [Python script](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Receiver)
   which reads data from the USB connected [XBee](https://amzn.to/2Jnuet4) module and calls [Web API](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web) to send received data;
@@ -113,16 +113,16 @@ Software for the Raspberry PI(receiver) consist from two parts:
     - shows connected devices and theirs temperature, humidity, and [head index](https://en.wikipedia.org/wiki/Heat_index);
     - shows historical data for each particular device using charts
 
-To build and deploy the code to the Raspberry PI use scripts from the scripts directory: `build.sh` to build API and UI, `deploy.sh` to deploy(don't forget to update the IP address in the `deploy.sh` script).
+To build and deploy the code to the Raspberry Pi use scripts from the scripts directory: `build.sh` to build API and UI, `deploy.sh` to deploy(don't forget to update the IP address in the `deploy.sh` script).
 
 You could call `sh ./build.sh && sh ./deploy.sh` from the scripts directory to build and deploy.
 
-**Prerequisites** to run the code on the Raspberry PI:
+**Prerequisites** to run the code on the Raspberry Pi:
 
 - Python 3 must be installed;
 - .NET Core must be install, see _Link #4_ in the Links section.
 
-After deployment, the code connects to your Raspberry PI, navigates to the `monitoring` directory and call `nohup sh ./run.sh &` to leave `run.sh` the script running when you close SSH connection.
+After deployment, the code connects to your Raspberry Pi, navigates to the `monitoring` directory and call `nohup sh ./run.sh &` to leave `run.sh` the script running when you close SSH connection.
 
 ## Part 4. Result
 
