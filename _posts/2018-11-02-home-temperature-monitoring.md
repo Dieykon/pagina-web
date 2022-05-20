@@ -51,7 +51,7 @@ been resolved.
 After that, you will see the connected XBee module in the list of modules
 
 ![Connected XBee](/assets/img/blog/home-temperature-monitoring/Capture2.PNG){: w="50%" }
-__Connected XBee.__
+_Connected XBee_
 
 3. Select the module and update: _ID_, _DL_, and _MY_ values.
 ![Select the module and update](/assets/img/blog/home-temperature-monitoring/Capture3-1.PNG){: w="50%" .normal }
