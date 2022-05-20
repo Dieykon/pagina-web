@@ -102,7 +102,7 @@ comments:
     repo: fisenkodv/landing
     repo_id:
     category: Comments
-    category_id:
+    category_id: DIC_kwDOCUwma84CPNK2
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
