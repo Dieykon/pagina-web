@@ -135,7 +135,7 @@ Feel free to ask me any questions.
 
 ## Links
 
-1. (Low Power Arduino! Deep Sleep Tutorial) [http://bit.ly/2EGqZy6]
-2. (ATMEL 8-BIT MICROCONTROLLER WITH 4/8/16/32KBYTES. IN-SYSTEM PROGRAMMABLE FLASH DATASHEET) [http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf]
-3. (Setting up Raspian and .NET Core 2.0 on a Raspberry Pi) [https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/]
+1. [Low Power Arduino! Deep Sleep Tutorial](http://bit.ly/2EGqZy6)
+2. [ATMEL 8-BIT MICROCONTROLLER WITH 4/8/16/32KBYTES. IN-SYSTEM PROGRAMMABLE FLASH DATASHEET](http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf)
+3. [Setting up Raspian and .NET Core 2.0 on a Raspberry Pi](https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/)
 4. [.NET Core on Raspberry Pi](https://github.com/dotnet/core/blob/master/samples/RaspberryPiInstructions.md)
