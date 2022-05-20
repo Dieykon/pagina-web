@@ -37,11 +37,11 @@ You could follow the following steps to set up XBee modules:
 
 1. In XCTU click on Add device to add USB connected XBee module
    ![XCTU Main Screen](/assets/img/blog/home-temperature-monitoring/Capture.PNG){: w="50%" .normal }
-   **XCTU Main Screen.**
+   _XCTU Main Screen_
 
 2. Select the connected device, as on the screenshot below.
    ![Add module](/assets/img/blog/home-temperature-monitoring/Capture1.PNG){: w="50%" .normal }
-   **Add module dialog.**
+   _Add module dialog_
 
 **Note**: if you don't see your XBee module, make sure you have installed a driver.
 If you use Windows you could see the connected device in the Device Manager. I
@@ -73,37 +73,37 @@ After these steps, XBee modules are ready for the next steps.
 
 Useful links:
 
-1. (Exploring XBees and XCTU) [https://learn.sparkfun.com/tutorials/exploring-xbees-and-xctu/all]
-2. (XBee WiFi Hookup Guide) [https://learn.sparkfun.com/tutorials/xbee-wifi-hookup-guide/all]
+1. [Exploring XBees and XCTU](https://learn.sparkfun.com/tutorials/exploring-xbees-and-xctu/all)
+2. [XBee WiFi Hookup Guide](https://learn.sparkfun.com/tutorials/xbee-wifi-hookup-guide/all)
 
 ## Part 2.2. Configuring Arduino
 
-(DHT22) [https://amzn.to/2Jnt5lg] and (Digi ZigBee Series 1) [https://amzn.to/2Jnuet4] need to be connected to (Arduino Pro Mini) [https://amzn.to/2SriJVC] before uploading the code. See the schema below how I connected (Arduino Pro Mini) [https://amzn.to/2SriJVC] with (DHT22)[https://amzn.to/2Jnt5lg] and (Digi ZigBee Series 1) [https://amzn.to/2Jnuet4]:
+[DHT22](https://amzn.to/2Jnt5lg) and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4) need to be connected to [Arduino Pro Mini](https://amzn.to/2SriJVC) before uploading the code. See the schema below how I connected [Arduino Pro Mini](https://amzn.to/2SriJVC) with (DHT22)[https://amzn.to/2Jnt5lg] and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4):
 
-(Arduino Pro Mini) [https://amzn.to/2SriJVC] pinout is available (here) [https://blog.fisenko.page/content/images/2018/10/promini.png].
+[Arduino Pro Mini](https://amzn.to/2SriJVC) pinout is available [here](https://blog.fisenko.page/content/images/2018/10/promini.png).
 
-I used an additional (Breakout Board for XBee Module) [https://amzn.to/2ABo9q6] with (Generic 2mm 10 Pin XBee Socket Header) [https://amzn.to/2Oe6ZCx] to connect (Digi ZigBee Series 1) [https://amzn.to/2Jnuet4].
+I used an additional [Breakout Board for XBee Module](https://amzn.to/2ABo9q6) with [Generic 2mm 10 Pin XBee Socket Header](https://amzn.to/2Oe6ZCx) to connect [Digi ZigBee Series 1](https://amzn.to/2Jnuet4).
 
-When everything is connected code can be uploaded to the (Arduino Pro Mini) [https://amzn.to/2SriJVC]. (Arduino Pro Mini) [https://amzn.to/2SriJVC] doesn't have a USB port you need to use _FTDI_ device, I used (SparkFun FTDI Basic Breakout - 3.3V) [https://amzn.to/2COER73].
+When everything is connected code can be uploaded to the [Arduino Pro Mini](https://amzn.to/2SriJVC). [Arduino Pro Mini](https://amzn.to/2SriJVC) doesn't have a USB port you need to use _FTDI_ device, I used (SparkFun FTDI Basic Breakout - 3.3V) [https://amzn.to/2COER73].
 
-**Please note**: that I used (3.3V Arduino Pro Mini) [https://amzn.to/2SriJVC] and therefore you have to use (3.3V FTDI) [https://amzn.to/2COER73].
+**Please note**: that I used [3.3V Arduino Pro Mini](https://amzn.to/2SriJVC) and therefore you have to use [3.3V FTDI](https://amzn.to/2COER73).
 
-Arduino sketch file is available here - (Monitoring.Sender.ino) [http://bit.ly/2PBwwKU], you just need to provide a unique `DEVICE_ID` for your device, e.g. `GUID` in (line #4) [https://github.com/fisenkodv/home-temperature-monitoring/blob/c4d7f451cd9978cb36bf8f81eaf79f884c52691a/src/Monitoring.Sender/Monitoring.Sender.ino#L4] of the sketch file and upload to (Arduino Pro Mini) [https://amzn.to/2SriJVC].
+Arduino sketch file is available here - [Monitoring.Sender.ino](http://bit.ly/2PBwwKU), you just need to provide a unique `DEVICE_ID` for your device, e.g. `GUID` in (line #4) [https://github.com/fisenkodv/home-temperature-monitoring/blob/c4d7f451cd9978cb36bf8f81eaf79f884c52691a/src/Monitoring.Sender/Monitoring.Sender.ino#L4] of the sketch file and upload to [Arduino Pro Mini](https://amzn.to/2SriJVC).
 
-Probably when you upload the code into your Arduino you will need to disconnect the XBee module, otherwise, you will get an error in the (Arduino IDE) [https://www.arduino.cc/en/Main/Software].
+Probably when you upload the code into your Arduino you will need to disconnect the XBee module, otherwise, you will get an error in the [Arduino IDE](https://www.arduino.cc/en/Main/Software).
 
 ## Part 3. Building Receiving Device
 
 ### Part 3.1. Configuring Raspberry PI
 
-Before running any code on Raspberry PI, you need to connect Digi ZigBee Series 1) [https://amzn.to/2Jnuet4]. In my case, I used the (XBee USB Adapter) [https://amzn.to/2PZZ9OF] for it.
+Before running any code on Raspberry PI, you need to connect Digi ZigBee Series 1) [https://amzn.to/2Jnuet4]. In my case, I used the [XBee USB Adapter](https://amzn.to/2PZZ9OF) for it.
 
 Now you are ready to upload the code into your Raspberry PI. The easiest way is to use SSH. _In this post, I'm not going to describe how to install Raspbian and configure SSH, but you could easily google it._
 
 Software for the Raspberry PI(receiver) consist from two parts:
 
 - A (Python script) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Receiver]
-  which reads data from the USB connected (XBee) [https://amzn.to/2Jnuet4] module and calls (Web API) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web] to send received data;
+  which reads data from the USB connected [XBee](https://amzn.to/2Jnuet4) module and calls (Web API) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web] to send received data;
 - A (Web part) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web] consists from an (API) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web] and (UI) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Client]
   - the _API_:
     - receives requests from the Python script and save into **MariaDB**
@@ -137,4 +137,4 @@ Feel free to ask me any questions.
 1. (Low Power Arduino! Deep Sleep Tutorial) [http://bit.ly/2EGqZy6]
 2. (ATMEL 8-BIT MICROCONTROLLER WITH 4/8/16/32KBYTES. IN-SYSTEM PROGRAMMABLE FLASH DATASHEET) [http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf]
 3. (Setting up Raspian and .NET Core 2.0 on a Raspberry Pi) [https://blogs.msdn.microsoft.com/david/2017/07/20/setting_up_raspian_and_dotnet_core_2_0_on_a_raspberry_pi/]
-4. ().NET Core on Raspberry Pi) [https://github.com/dotnet/core/blob/master/samples/RaspberryPiInstructions.md]
+4. [.NET Core on Raspberry Pi](https://github.com/dotnet/core/blob/master/samples/RaspberryPiInstructions.md)
