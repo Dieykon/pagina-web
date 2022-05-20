@@ -99,9 +99,9 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
+    repo: fisenkodv/landing
     repo_id:
-    category:
+    category: Comments
     category_id:
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
