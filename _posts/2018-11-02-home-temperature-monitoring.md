@@ -79,17 +79,17 @@ Useful links:
 
 ## Part 2.2. Configuring Arduino
 
-[DHT22](https://amzn.to/2Jnt5lg) and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4) need to be connected to [Arduino Pro Mini](https://amzn.to/2SriJVC) before uploading the code. See the schema below how I connected [Arduino Pro Mini](https://amzn.to/2SriJVC) with (DHT22)[https://amzn.to/2Jnt5lg] and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4):
+[DHT22](https://amzn.to/2Jnt5lg) and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4) need to be connected to [Arduino Pro Mini](https://amzn.to/2SriJVC) before uploading the code. See the schema below how I connected [Arduino Pro Mini](https://amzn.to/2SriJVC) with [DHT22](https://amzn.to/2Jnt5lg) and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4):
 
 [Arduino Pro Mini](https://amzn.to/2SriJVC) pinout is available [here](https://blog.fisenko.page/content/images/2018/10/promini.png).
 
 I used an additional [Breakout Board for XBee Module](https://amzn.to/2ABo9q6) with [Generic 2mm 10 Pin XBee Socket Header](https://amzn.to/2Oe6ZCx) to connect [Digi ZigBee Series 1](https://amzn.to/2Jnuet4).
 
-When everything is connected code can be uploaded to the [Arduino Pro Mini](https://amzn.to/2SriJVC). [Arduino Pro Mini](https://amzn.to/2SriJVC) doesn't have a USB port you need to use _FTDI_ device, I used (SparkFun FTDI Basic Breakout - 3.3V) [https://amzn.to/2COER73].
+When everything is connected code can be uploaded to the [Arduino Pro Mini](https://amzn.to/2SriJVC). [Arduino Pro Mini](https://amzn.to/2SriJVC) doesn't have a USB port you need to use _FTDI_ device, I used [SparkFun FTDI Basic Breakout - 3.3V](https://amzn.to/2COER73).
 
 **Please note**: that I used [3.3V Arduino Pro Mini](https://amzn.to/2SriJVC) and therefore you have to use [3.3V FTDI](https://amzn.to/2COER73).
 
-Arduino sketch file is available here - [Monitoring.Sender.ino](http://bit.ly/2PBwwKU), you just need to provide a unique `DEVICE_ID` for your device, e.g. `GUID` in (line #4) [https://github.com/fisenkodv/home-temperature-monitoring/blob/c4d7f451cd9978cb36bf8f81eaf79f884c52691a/src/Monitoring.Sender/Monitoring.Sender.ino#L4] of the sketch file and upload to [Arduino Pro Mini](https://amzn.to/2SriJVC).
+Arduino sketch file is available here - [Monitoring.Sender.ino](http://bit.ly/2PBwwKU), you just need to provide a unique `DEVICE_ID` for your device, e.g. `GUID` in [line #4](https://github.com/fisenkodv/home-temperature-monitoring/blob/c4d7f451cd9978cb36bf8f81eaf79f884c52691a/src/Monitoring.Sender/Monitoring.Sender.ino#L4) of the sketch file and upload to [Arduino Pro Mini](https://amzn.to/2SriJVC).
 
 Probably when you upload the code into your Arduino you will need to disconnect the XBee module, otherwise, you will get an error in the [Arduino IDE](https://www.arduino.cc/en/Main/Software).
 
@@ -97,20 +97,20 @@ Probably when you upload the code into your Arduino you will need to disconnect 
 
 ### Part 3.1. Configuring Raspberry PI
 
-Before running any code on Raspberry PI, you need to connect Digi ZigBee Series 1) [https://amzn.to/2Jnuet4]. In my case, I used the [XBee USB Adapter](https://amzn.to/2PZZ9OF) for it.
+Before running any code on Raspberry PI, you need to connect [Digi ZigBee Series 1](https://amzn.to/2Jnuet4). In my case, I used the [XBee USB Adapter](https://amzn.to/2PZZ9OF) for it.
 
 Now you are ready to upload the code into your Raspberry PI. The easiest way is to use SSH. _In this post, I'm not going to describe how to install Raspbian and configure SSH, but you could easily google it._
 
 Software for the Raspberry PI(receiver) consist from two parts:
 
-- A (Python script) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Receiver]
-  which reads data from the USB connected [XBee](https://amzn.to/2Jnuet4) module and calls (Web API) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web] to send received data;
-- A (Web part) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web] consists from an (API) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web] and (UI) [https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Client]
+- A [Python script](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Receiver)
+  which reads data from the USB connected [XBee](https://amzn.to/2Jnuet4) module and calls [Web API](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web) to send received data;
+- A [Web part](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web) consists from an [API](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web) and [UI](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Client)
   - the _API_:
     - receives requests from the Python script and save into **MariaDB**
     - retrieve data for the UI Spa application
   - the _UI_ is the Angular application:
-    - shows connected devices and theirs temperature, humidity, and (head index) [https://en.wikipedia.org/wiki/Heat_index];
+    - shows connected devices and theirs temperature, humidity, and [head index](https://en.wikipedia.org/wiki/Heat_index);
     - shows historical data for each particular device using charts
 
 To build and deploy the code to the Raspberry PI use scripts from the scripts directory: `build.sh` to build API and UI, `deploy.sh` to deploy(don't forget to update the IP address in the `deploy.sh` script).
