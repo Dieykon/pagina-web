@@ -3,6 +3,12 @@ title: 🖥 Home Temperature Monitoring
 date: 2018-11-02 13:07:00 -0400
 categories: [IoT]
 tags: [arduino]
+
+image:
+  src: /assets/img/blog/home-temperature-monitoring/preview.jpg
+  width: 1000 # in pixels
+  height: 400 # in pixels
+  alt: image alternative text
 ---
 
 The story is about how I built a homebrew temperature/humidity monitoring system using Arduino, XBee, and Raspberry Pi.
@@ -108,7 +114,7 @@ Software for the Raspberry Pi(receiver) consist from two parts:
 - A [Web part](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web) consists from an [API](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Web) and [UI](https://github.com/fisenkodv/home-temperature-monitoring/tree/master/src/Monitoring.Client)
   - the _API_:
     - receives requests from the Python script and save into **MariaDB**
-    - retrieve data for the UI Spa application
+    - retrieve data for the UI SPA application
   - the _UI_ is the Angular application:
     - shows connected devices and theirs temperature, humidity, and [head index](https://en.wikipedia.org/wiki/Heat_index);
     - shows historical data for each particular device using charts
