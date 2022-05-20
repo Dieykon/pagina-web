@@ -87,6 +87,9 @@ Useful links:
 
 [DHT22](https://amzn.to/2Jnt5lg) and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4) need to be connected to [Arduino Pro Mini](https://amzn.to/2SriJVC) before uploading the code. See the schema below how I connected [Arduino Pro Mini](https://amzn.to/2SriJVC) with [DHT22](https://amzn.to/2Jnt5lg) and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4):
 
+![Sketch](/assets/img/blog/home-temperature-monitoring/sketch.png){: w="50%" }
+_Sketch_
+
 [Arduino Pro Mini](https://amzn.to/2SriJVC) pinout is available [here](https://blog.fisenko.page/content/images/2018/10/promini.png).
 
 I used an additional [Breakout Board for XBee Module](https://amzn.to/2ABo9q6) with [Generic 2mm 10 Pin XBee Socket Header](https://amzn.to/2Oe6ZCx) to connect [Digi ZigBee Series 1](https://amzn.to/2Jnuet4).
