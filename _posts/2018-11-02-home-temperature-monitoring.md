@@ -36,11 +36,11 @@ For the configuration, I used [XCTU](https://www.digi.com/products/xbee-rf-solut
 You could follow the following steps to set up XBee modules:
 
 1. In XCTU click on Add device to add USB connected XBee module
-   ![XCTU Main Screen](/assets/img/blog/home-temperature-monitoring/Capture.PNG){: w="50%" .normal }
+   ![XCTU Main Screen](/assets/img/blog/home-temperature-monitoring/Capture.PNG){: w="50%" }
    _XCTU Main Screen_
 
 2. Select the connected device, as on the screenshot below.
-   ![Add module](/assets/img/blog/home-temperature-monitoring/Capture1.PNG){: w="50%" .normal }
+   ![Add module](/assets/img/blog/home-temperature-monitoring/Capture1.PNG){: w="50%" }
    _Add module dialog_
 
 **Note**: if you don't see your XBee module, make sure you have installed a driver.
@@ -54,7 +54,8 @@ After that, you will see the connected XBee module in the list of modules
 _Connected XBee_
 
 3. Select the module and update: _ID_, _DL_, and _MY_ values.
-![Select the module and update](/assets/img/blog/home-temperature-monitoring/Capture3-1.PNG){: w="50%" .normal }
+
+![Select the module and update](/assets/img/blog/home-temperature-monitoring/Capture3-1.PNG){: w="50%" }
 
 Here is what I used for my configuration:
 
@@ -127,7 +128,7 @@ After deployment, the code connects to your Raspberry PI, navigates to the `moni
 
 The final result is a Web Application that looks like
 
-![Main screen](/assets/img/blog/home-temperature-monitoring/main_screen.png){: w="50%" .normal }
+![Main screen](/assets/img/blog/home-temperature-monitoring/main_screen.png){: w="50%" }
 **Main screen.**
 
 Feel free to ask me any questions.
