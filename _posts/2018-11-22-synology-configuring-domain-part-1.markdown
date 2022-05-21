@@ -23,10 +23,10 @@ Fortunately, there is awesome package **[DDNS Updater 2](https://www.cphub.net/?
 
 To get it worked **[DDNS Updater 2](https://www.cphub.net/?p=ddnsupdater2)** needs to be downloaded and installed after that multiple sub-domains could be configured as below
 
-![DDNS Updater 2](/assets/img/blog/synology-configuring-domain-part-1/image-2.png){: w="50%" .normal }
+![DDNS Updater 2](/assets/img/blog/synology-configuring-domain-part-1/image-2.png){: w="50%" }
 _DDNS Updater 2_
 
-![DDNS Updater 2 domain configuration](/assets/img/blog/synology-configuring-domain-part-1/image-3.png){: w="50%" .normal }
+![DDNS Updater 2 domain configuration](/assets/img/blog/synology-configuring-domain-part-1/image-3.png){: w="50%" }
 _DDNS Updater 2 domain configuration_
 
 The same configuration needs to be done for all subdomains.
@@ -36,13 +36,10 @@ In my case, I use [Google Domains](https://domains.google/) since it provides Dy
 Now DNS is configured but an additional step is required to add HTTPS support. Fortunately, Synology already has built-in [Let's Encrypt](https://letsencrypt.org) support. Certificates could be added as shown below:
 
 ![Control Panel, Security, Certificates](/assets/img/blog/synology-configuring-domain-part-1/image-4.png){: w="33%" .normal }
-_Control Panel, Security, Certificates_
 
 ![Add a new certificate](/assets/img/blog/synology-configuring-domain-part-1/image-5.png){: w="33%" .normal }
-_Add a new certificate_
 
 ![Create certificate](/assets/img/blog/synology-configuring-domain-part-1/image-6.png){: w="33%" .normal }
-_Create certificate_
 
 After these simple steps domains will be available over HTTPS with a valid certificate, e.g. _[blog.fisenko.net](https://blog.fisenko.net)_ and _[fisenko.net](https://fisenko.net)._
 
