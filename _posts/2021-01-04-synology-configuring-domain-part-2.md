@@ -21,13 +21,13 @@ After the changes I did:
 
 - disabled all previous _DDNS Updater 2_ configurations. Configurations could be removed as well if you are 100% confident.
 
-![DDNS Updater 2](/assets/img/blog/synology-configuring-domain-part-2/image.png){: w="50%" }
+![DDNS Updater 2](/assets/img/blog/synology-configuring-domain-part-2/image.png){: w="70%" }
 _DDNS Updater 2_
 
 - added a new configuration using a wildcard _`*.fisenko.net`, see the screenshot above_
 - added a wildcard synthetic record in the _Google Domains_
 
-![Google Domains](/assets/img/blog/synology-configuring-domain-part-2/image-1.png){: w="50%" }
+![Google Domains](/assets/img/blog/synology-configuring-domain-part-2/image-1.png){: w="70%" }
 _Google Domains_
 
 I got a fully functional configuration without tons of subdomains in the _DDNS Updater 2_ and _Google Domains._
