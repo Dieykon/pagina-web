@@ -25,6 +25,7 @@ To get it worked **[DDNS Updater 2](https://www.cphub.net/?p=ddnsupdater2)** nee
 
 ![DDNS Updater 2](/assets/img/blog/synology-configuring-domain-part-1/image-2.png){: w="70%" }
 _DDNS Updater 2_
+
 ![DDNS Updater 2 domain configuration](/assets/img/blog/synology-configuring-domain-part-1/image-3.png){: w="70%" }
 _DDNS Updater 2 domain configuration_
 
