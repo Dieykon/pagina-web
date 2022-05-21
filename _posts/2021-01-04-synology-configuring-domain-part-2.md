@@ -39,4 +39,4 @@ Thank you! 🙏🏻
 ### Related Posts
 
 - [Configuring Synology NAS to use its own domain name. Part 1]({% post_url 2018-11-22-synology-configuring-domain-part-1 %})
-- [Configuring Synology NAS to use its own domain name. Part 3]({% post_url 2021-06-09-synology-configuring-domain-part-3s %})
+- [Configuring Synology NAS to use its own domain name. Part 3]({% post_url 2021-06-09-synology-configuring-domain-part-3 %})
