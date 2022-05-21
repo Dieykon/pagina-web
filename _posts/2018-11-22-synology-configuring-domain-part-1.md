@@ -23,9 +23,9 @@ Fortunately, there is awesome package **[DDNS Updater 2](https://www.cphub.net/?
 
 To get it worked **[DDNS Updater 2](https://www.cphub.net/?p=ddnsupdater2)** needs to be downloaded and installed after that multiple sub-domains could be configured as below
 
-![DDNS Updater 2](/assets/img/blog/synology-configuring-domain-part-1/image-2.png){: w="50%" }
+![DDNS Updater 2](/assets/img/blog/synology-configuring-domain-part-1/image-2.png){: w="70%" }
 _DDNS Updater 2_
-![DDNS Updater 2 domain configuration](/assets/img/blog/synology-configuring-domain-part-1/image-3.png){: w="50%" }
+![DDNS Updater 2 domain configuration](/assets/img/blog/synology-configuring-domain-part-1/image-3.png){: w="70%" }
 _DDNS Updater 2 domain configuration_
 
 The same configuration needs to be done for all subdomains.
