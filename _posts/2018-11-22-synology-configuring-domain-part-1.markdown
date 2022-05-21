@@ -46,14 +46,14 @@ _Create certificate_
 
 After these simple steps domains will be available over HTTPS with a valid certificate, e.g. _[blog.fisenko.net](https://blog.fisenko.net)_ and _[fisenko.net](https://fisenko.net)._
 
-_Update_: read [Configuring Synology NAS to use its own domain name. Part 2](/synology-configuring-domain-part-2/) to see how to simplify the configuration.
+_Update_: read [Configuring Synology NAS to use its own domain name. Part 2](https://fisenkodv.github.io/landing/posts/synology-configuring-domain-part-2/) to see how to simplify the configuration.
 
 Thank you! 🙏🏻
 
 ## Related Posts
 
-- [Configuring Synology NAS to use its own domain name. Part 2](/synology-configuring-domain-part-2/)
-- [Configuring Synology NAS to use its own domain name. Part 3](/configuring-synology-nas-to-use-its-own-domain-name-part-3/)
+- [Configuring Synology NAS to use its own domain name. Part 2](https://fisenkodv.github.io/landing/posts/synology-configuring-domain-part-2/)
+- [Configuring Synology NAS to use its own domain name. Part 3](https://fisenkodv.github.io/landing/posts/configuring-synology-nas-to-use-its-own-domain-name-part-3/)
 
 ## Links
 
