@@ -41,13 +41,13 @@ Now DNS is configured but an additional step is required to add HTTPS support. F
 
 After these simple steps domains will be available over HTTPS with a valid certificate, e.g. _[blog.fisenko.net](https://blog.fisenko.net)_ and _[fisenko.net](https://fisenko.net)._
 
-_Update_: read [Configuring Synology NAS to use its own domain name. Part 2]({% post_url 2018-01-04-synology-configuring-domain-part-2 %}) to see how to simplify the configuration.
+_Update_: read [Configuring Synology NAS to use its own domain name. Part 2]({% post_url 2021-01-04-synology-configuring-domain-part-2 %}) to see how to simplify the configuration.
 
 Thank you! 🙏🏻
 
 ## Related Posts
 
-- [Configuring Synology NAS to use its own domain name. Part 2]({% post_url 2018-01-04-synology-configuring-domain-part-2 %})
+- [Configuring Synology NAS to use its own domain name. Part 2]({% post_url 2021-01-04-synology-configuring-domain-part-2 %})
 - [Configuring Synology NAS to use its own domain name. Part 3]({% post_url 2021-06-09-synology-configuring-domain-part-3 %})
 
 ## Links
