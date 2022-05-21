@@ -2,13 +2,14 @@
 title: 🖥 Home Temperature Monitoring
 date: 2018-11-02 13:07:00 -0400
 categories: [IoT]
-tags: [arduino]
+tags:
+  - arduino
 
 image:
   src: /assets/img/blog/home-temperature-monitoring/preview.jpg
   width: 1000 # in pixels
   height: 400 # in pixels
-  alt: image alternative text
+  alt: Home Temperature Monitoring
 ---
 
 The story is about how I built a homebrew temperature/humidity monitoring system using Arduino, XBee, and Raspberry Pi.
