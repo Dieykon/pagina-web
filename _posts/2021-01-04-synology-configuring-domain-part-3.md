@@ -15,6 +15,8 @@ In my [previous post](./synology-configuring-domain/), I described how to config
 
 and each time when I need to for example rename the subdomain I had to do the same. Which is absolutely crazy and obviously not too convenient.
 
+In one of the comments in the previous post, **[Metalheadkicks](https://disqus.com/by/metalheadkicks/)** left a [comment](./synology-configuring-domain/#comment-4948366501) about that wildcard, which could really simplify configuration and support. **[Metalheadkicks](https://disqus.com/by/metalheadkicks/)** thank you so much, I really appreciate it!
+
 Until today I have been postponing changing the configuration, but today I finally have found a bit of time to switch the configuration to wildcards.
 
 After the changes I did:
