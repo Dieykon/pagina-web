@@ -36,9 +36,7 @@ In my case, I use [Google Domains](https://domains.google/) since it provides Dy
 Now DNS is configured but an additional step is required to add HTTPS support. Fortunately, Synology already has built-in [Let's Encrypt](https://letsencrypt.org) support. Certificates could be added as shown below:
 
 ![Control Panel, Security, Certificates](/assets/img/blog/synology-configuring-domain-part-1/image-4.png){: w="33%" .normal }
-
 ![Add a new certificate](/assets/img/blog/synology-configuring-domain-part-1/image-5.png){: w="33%" .normal }
-
 ![Create certificate](/assets/img/blog/synology-configuring-domain-part-1/image-6.png){: w="33%" .normal }
 
 After these simple steps domains will be available over HTTPS with a valid certificate, e.g. _[blog.fisenko.net](https://blog.fisenko.net)_ and _[fisenko.net](https://fisenko.net)._
