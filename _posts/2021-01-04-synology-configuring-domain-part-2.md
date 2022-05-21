@@ -7,7 +7,7 @@ tags:
   - synology
 ---
 
-In my [previous post](./synology-configuring-domain/), I described how to configure [DDNS Updater 2](https://www.cphub.net/?p=ddnsupdater2) and [Google Domains](https://domains.google/) to use Dynamic DNS. Enough time has passed since then and I had to add many subdomains for my [fisenko.net](https://fisenko.net) domain, each time adding a new subdomain lead me to the following steps:
+In my [previous post](/posts/synology-configuring-domain-part-1/), I described how to configure [DDNS Updater 2](https://www.cphub.net/?p=ddnsupdater2) and [Google Domains](https://domains.google/) to use Dynamic DNS. Enough time has passed since then and I had to add many subdomains for my [fisenko.net](https://fisenko.net) domain, each time adding a new subdomain lead me to the following steps:
 
 - create a new domain configuration on the _Google Domains_
 - add configuration to the _DDNS Updater 2_
@@ -38,5 +38,5 @@ Thank you! 🙏🏻
 
 ### Related Posts
 
-- [Configuring Synology NAS to use its own domain name. Part 1](./synology-configuring-domain-part-1/)
-- [Configuring Synology NAS to use its own domain name. Part 3](./configuring-synology-nas-to-use-its-own-domain-name-part-3/)
+- [Configuring Synology NAS to use its own domain name. Part 1](/posts/synology-configuring-domain-part-1)
+- [Configuring Synology NAS to use its own domain name. Part 3](/posts/synology-configuring-domain-part-3)
