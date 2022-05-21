@@ -13,7 +13,7 @@ In this post, I describe how you could configure Synology NAS to use your own do
 
 [Synology NAS](https://amzn.to/2S6JOfI) provides a build-in functionality to configure your domain like **[fisenko.net](https://fisenko.net)** even you don't have a static IP address. You just need to open: _Control Panel_, _External Access_, and click on _Add_ in _DDNS_ section.
 
-![Control Panel](/assets/img/blog/synology-configuring-domain-part-1/image-1.png){: w="50%" }
+![Control Panel](/assets/img/blog/synology-configuring-domain-part-1/image-1.png){: w="70%" }
 
 It works fine until you need to add sub-domains, like _[**blog**.fisenko.net](https://blog.fisenko.net/)_, _**blahblahblah**.fisenko.page_ etc. For some reason, the build-in _DDNS_ settings don't allow to add more than one domain for one service provider. For example, I want to configure _[fisenko.net](https://fisenko.net/)_, _[blog.fisenko.net](https://blog.fisenko.net)_ with Google service provide.
 
@@ -25,7 +25,6 @@ To get it worked **[DDNS Updater 2](https://www.cphub.net/?p=ddnsupdater2)** nee
 
 ![DDNS Updater 2](/assets/img/blog/synology-configuring-domain-part-1/image-2.png){: w="50%" }
 _DDNS Updater 2_
-
 ![DDNS Updater 2 domain configuration](/assets/img/blog/synology-configuring-domain-part-1/image-3.png){: w="50%" }
 _DDNS Updater 2 domain configuration_
 
