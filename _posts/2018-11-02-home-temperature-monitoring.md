@@ -43,11 +43,11 @@ For the configuration, I used [XCTU](https://www.digi.com/products/xbee-rf-solut
 You could follow the following steps to set up XBee modules:
 
 1. In XCTU click on Add device to add USB connected XBee module
-   ![XCTU Main Screen](/assets/img/blog/home-temperature-monitoring/Capture.PNG){: w="50%" }
+   ![XCTU Main Screen](/assets/img/blog/home-temperature-monitoring/Capture.PNG){: w="70%" }
    _XCTU Main Screen_
 
 2. Select the connected device, as on the screenshot below.
-   ![Add module](/assets/img/blog/home-temperature-monitoring/Capture1.PNG){: w="50%" }
+   ![Add module](/assets/img/blog/home-temperature-monitoring/Capture1.PNG){: w="70%" }
    _Add module dialog_
 
 **Note**: if you don't see your XBee module, make sure you have installed a driver.
@@ -57,12 +57,12 @@ been resolved.
 
 After that, you will see the connected XBee module in the list of modules
 
-![Connected XBee](/assets/img/blog/home-temperature-monitoring/Capture2.PNG){: w="50%" }
+![Connected XBee](/assets/img/blog/home-temperature-monitoring/Capture2.PNG){: w="70%" }
 _Connected XBee_
 
 3. Select the module and update: _ID_, _DL_, and _MY_ values.
 
-![Select the module and update](/assets/img/blog/home-temperature-monitoring/Capture3-1.PNG){: w="50%" }
+![Select the module and update](/assets/img/blog/home-temperature-monitoring/Capture3-1.PNG){: w="70%" }
 
 Here is what I used for my configuration:
 
@@ -88,7 +88,7 @@ Useful links:
 
 [DHT22](https://amzn.to/2Jnt5lg) and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4) need to be connected to [Arduino Pro Mini](https://amzn.to/2SriJVC) before uploading the code. See the schema below how I connected [Arduino Pro Mini](https://amzn.to/2SriJVC) with [DHT22](https://amzn.to/2Jnt5lg) and [Digi ZigBee Series 1](https://amzn.to/2Jnuet4):
 
-![Sketch](/assets/img/blog/home-temperature-monitoring/sketch.png){: w="50%" }
+![Sketch](/assets/img/blog/home-temperature-monitoring/sketch.png){: w="70%" }
 _Sketch_
 
 [Arduino Pro Mini](https://amzn.to/2SriJVC) pinout is available [here](https://blog.fisenko.page/content/images/2018/10/promini.png).
@@ -138,7 +138,7 @@ After deployment, the code connects to your Raspberry Pi, navigates to the `moni
 
 The final result is a Web Application that looks like
 
-![Main screen](/assets/img/blog/home-temperature-monitoring/main_screen.png){: w="50%" }
+![Main screen](/assets/img/blog/home-temperature-monitoring/main_screen.png){: w="70%" }
 **Main screen.**
 
 Feel free to ask me any questions.
