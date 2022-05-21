@@ -15,7 +15,7 @@ In this post, I describe how you could configure Synology NAS to use your own do
 
 ![Control Panel](/assets/img/blog/synology-configuring-domain-part-1/image-1.png){: w="50%" }
 
-It works fine until you need to add sub-domains, like _[**blog**.fisenko.net]( **GHOST_URL** /)_, _ **blahblahblah**.fisenko.page_ etc. For some reason, the build-in _DDNS_ settings don't allow to add more than one domain for one service provider. For example, I want to configure _[fisenko.net](https://fisenko.net/)_, _[blog.fisenko.net]( **GHOST_URL** /)_ with Google service provide.
+It works fine until you need to add sub-domains, like _[**blog**.fisenko.net](https://blog.fisenko.net/)_, _**blahblahblah**.fisenko.page_ etc. For some reason, the build-in _DDNS_ settings don't allow to add more than one domain for one service provider. For example, I want to configure _[fisenko.net](https://fisenko.net/)_, _[blog.fisenko.net](https://blog.fisenko.net)_ with Google service provide.
 
 Fortunately, there is awesome package **[DDNS Updater 2](https://www.cphub.net/?p=ddnsupdater2)**
 
@@ -44,16 +44,16 @@ _Add a new certificate_
 ![Create certificate](/assets/img/blog/synology-configuring-domain-part-1/image-6.png){: w="33%" .normal }
 _Create certificate_
 
-After these simple steps domains will be available over HTTPS with a valid certificate, e.g. _[blog.fisenko.net]( **GHOST_URL** /)_ and _[fisenko.net]( **GHOST_URL** /)._
+After these simple steps domains will be available over HTTPS with a valid certificate, e.g. _[blog.fisenko.net](https://blog.fisenko.net)_ and _[fisenko.net](https://fisenko.net)._
 
-_Update_: read "[Configuring Synology NAS to use its own domain name. Part 2]( **GHOST_URL** /synology-configuring-domain-part-2/)" to see how to simplify the configuration.
+_Update_: read [Configuring Synology NAS to use its own domain name. Part 2](/synology-configuring-domain-part-2/) to see how to simplify the configuration.
 
 Thank you! 🙏🏻
 
 ## Related Posts
 
-- [Configuring Synology NAS to use its own domain name. Part 2]( **GHOST_URL** /synology-configuring-domain-part-2/)
-- [Configuring Synology NAS to use its own domain name. Part 3]( **GHOST_URL** /configuring-synology-nas-to-use-its-own-domain-name-part-3/)
+- [Configuring Synology NAS to use its own domain name. Part 2](/synology-configuring-domain-part-2/)
+- [Configuring Synology NAS to use its own domain name. Part 3](/configuring-synology-nas-to-use-its-own-domain-name-part-3/)
 
 ## Links
 
