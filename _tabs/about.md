@@ -4,9 +4,9 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi there, I'm New Jersey, US based software developer with more than 10 years of experience in the design and development of various complexity applications, ranging from small-business solutions to sophisticated n-tier distributed applications. Strong analytical skills combined with the ability to define strategy and implementation details, theoretical background, and hands-on experience in software development. Constantly improving and developing professional skills by comparing with the world’s best practices.
+Hi there, I'm a New Jersey, US-based software developer with more than 10 years of experience in the design and development of various complex applications, ranging from small-business solutions to sophisticated n-tier distributed applications. Strong analytical skills combined with the ability to define strategy and implementation details, theoretical background, and hands-on experience in software development. Constantly improving and developing professional skills by comparing with the world’s best practices.
 
-The most up to date CV can be found [here](https://www.icloud.com/iclouddrive/028rjYitmTpV1EMWzJuVJH7rw#DMITRY_FISENKO_CV) 👈🏻
+The most up to date CV can be found [here](https://www.icloud.com/iclouddrive/0bfCG0_M6q25PWRXRnEuklyLQ#DMITRY_FISENKO_CV) 👈🏻
 
 ### Skills
 
@@ -57,7 +57,7 @@ The most up to date CV can be found [here](https://www.icloud.com/iclouddrive/02
 - Responsible for project delivery and production support on a small account of 8 team members
 - Led implementation of the transition of critical legacy part of an application to modern web-based architectures
 - Designed and implemented the core of client and server-side code for building, configuring, and displaying complex filters
-- Developed high-performant search service based on Open Data Protocol (OData) to search items stored in FAST Search backend
+- Developed high-performant search service based on Open Data Protocol (OData) to search items stored in the FAST Search backend
 - Developed a few web services to import data from different formats under the supervision of senior developers
 - Implemented a unified module for synchronizing multimedia data between devices based on Windows Mobile, Symbian(S60), Nokia Series 40, and desktop applications on Windows
 
