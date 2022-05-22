@@ -12,7 +12,7 @@ After Googling and researching I settled upon Ubiquity products. They provide pl
 
 The next step was research on how to achieve what I need, i.e. delimitation the boundaries of the devices. Luckily I found an amazing [YouTube channel](https://www.youtube.com/channel/UCkLTdFxnM_0Ej163wR9wI1g/featured) and video on that channel, see the link below.
 
-<figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/-ggmjdFWfqw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-ggmjdFWfqw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Where the author describes how to organize, configure the VLANs, create the rules. His approach totally makes sense for my setup, even the handy spreadsheet to write down information about patch panel ports, VLANs, static IPs, comments, etc. You can download the spreadsheet from [here](https://www.dropbox.com/sh/bjufgi7l43z1pcw/AAAa8Jqvrx8Gbk_701emx8Bra?dl=0).
 
@@ -47,4 +47,4 @@ after almost one month of using the new system, I can say with confidence that i
 
 ### Useful Links
 
-<figure class="kg-card kg-embed-card"><iframe width="200" height="113" src="https://www.youtube.com/embed/afRV3qYuSfg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></figure>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/afRV3qYuSfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
