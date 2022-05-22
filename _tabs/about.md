@@ -6,7 +6,7 @@ order: 4
 
 Hi there, I'm New Jersey, US based software developer with more than 10 years of experience in the design and development of various complexity applications, ranging from small-business solutions to sophisticated n-tier distributed applications. Strong analytical skills combined with the ability to define strategy and implementation details, theoretical background, and hands-on experience in software development. Constantly improving and developing professional skills by comparing with the world’s best practices.
 
-The most up to date CV can be found [here](https://bit.ly/3a1zrEw) 👈🏻
+The most up to date CV can be found [here](https://www.icloud.com/iclouddrive/028rjYitmTpV1EMWzJuVJH7rw#DMITRY_FISENKO_CV) 👈🏻
 
 ### Skills
 
