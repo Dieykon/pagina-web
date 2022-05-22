@@ -31,8 +31,7 @@ _Resource Monitor_
 
 If you want to go all out and hit 16GB of RAM, it's possible to replace the original 2GB module, but you need to take apart the NAS completely and isn't recommended unless you truly need extra memory.
 
-![DS 218+](/assets/img/blog/adding-ram-to-synology-ds-218/IMG_6138.jpeg){: w="50%" .normal }
-![DS 218+](/assets/img/blog/adding-ram-to-synology-ds-218/IMG_6137.jpeg){: w="50%" .normal }
-
-![DS 218+](/assets/img/blog/adding-ram-to-synology-ds-218/IMG_6139.jpeg){: w="50%" .normal }
-![DS 218+](/assets/img/blog/adding-ram-to-synology-ds-218/IMG_6140.jpeg){: w="50%" .normal }
+![DS 218+](/assets/img/blog/adding-ram-to-synology-ds-218/IMG_6138.jpeg){: w="70%" }
+![DS 218+](/assets/img/blog/adding-ram-to-synology-ds-218/IMG_6137.jpeg){: w="70%" }
+![DS 218+](/assets/img/blog/adding-ram-to-synology-ds-218/IMG_6139.jpeg){: w="70%" }
+![DS 218+](/assets/img/blog/adding-ram-to-synology-ds-218/IMG_6140.jpeg){: w="70%" }
