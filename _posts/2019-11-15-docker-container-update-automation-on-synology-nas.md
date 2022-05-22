@@ -24,5 +24,5 @@ To run the Watchtower on the NAS there is on a small trick than needs to be done
 
 After those simple steps, the Watchtower works and Synology Docker package shows it.
 
-![Watchtower container](/assets/img/blog/docker-container-update-automation-on-synology-nas/watchtower-container.png){: w="70%" }
+![Watchtower container](/assets/img/blog/docker-container-update-automation-on-synology-nas/watchtower-container.jpg){: w="70%" }
 ![Watchtower logs](/assets/img/blog/docker-container-update-automation-on-synology-nas/watchtower-logs.png){: w="70%" }
