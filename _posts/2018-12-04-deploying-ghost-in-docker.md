@@ -11,7 +11,6 @@ tags:
 Previously I described how to [configure Synology NAS to use own domain name]({% post_url 2018-11-22-synology-configuring-domain-part-1 %}). In this post, I'm going to describe how to deploy [Ghost](https://ghost.org/) in Synology NAS using [Docker](https://www.docker.com/).
 
 > **Ghost** is a free and open-source blogging platform written in JavaScript and distributed under the MIT License, designed to simplify the process of online publishing for individual bloggers as well as online publications.
-
 > **Docker** is a computer program that performs operating-system-level virtualization, also known as "containerization". It was first released in 2013 and is developed by Docker, Inc. Docker is used to running software packages called "containers".
 
 All the steps below are performed on [Synology DS218+](https://amzn.to/2Ssbmg2)
