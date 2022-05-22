@@ -1,7 +1,7 @@
 ---
 title: 🖥 Home Temperature Monitoring
 date: 2018-11-02 13:07:00 -0400
-categories: [IoT]
+categories: [IoT, Arduino]
 tags:
   - arduino
 
