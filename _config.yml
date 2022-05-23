@@ -47,7 +47,7 @@ social:
     - https://twitter.com/fisenkodv # change to your twitter homepage
     - https://github.com/fisenkodv # change to your github homepage
     # Uncomment below to add more social links
-    # - https://www.facebook.com/username
+    - https://www.facebook.com/fisenkodv
     - https://www.linkedin.com/in/fisenkodv
 
 google_site_verification: # fill in to your verification string
@@ -56,7 +56,7 @@ google_site_verification: # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-R6010500SQ # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint: # fill in the Google Analytics superProxy endpoint of Google App Engine
