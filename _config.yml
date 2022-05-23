@@ -80,7 +80,7 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: https://raw.githubusercontent.com/fisenkodv/landing/main
+img_cdn: https://raw.githubusercontent.com/fisenkodv/home-page/main
 
 # the avatar on sidebar, support local or CORS resources
 avatar: /assets/img/profile-photos/avatar.png
@@ -99,7 +99,7 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: fisenkodv/landing
+    repo: fisenkodv/home-page
     repo_id: MDEwOlJlcG9zaXRvcnkxNTU5ODU1MTU=
     category: Comments
     category_id: DIC_kwDOCUwma84CPNK2
