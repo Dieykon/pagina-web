@@ -8,4 +8,4 @@ Powered by [Chirpy Jekyll Theme](https://github.com/cotes2020/jekyll-theme-chirp
 
 ## License
 
-This work is published under [MIT][mit] License.
+This work is published under [MIT](https://github.com/fisenkodv/home-page/blob/master/LICENSE) License.
