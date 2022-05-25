@@ -10,7 +10,7 @@ The most up to date CV can be found [here](https://www.icloud.com/iclouddrive/0b
 
 ### Skills
 
-( **proficient** ) Java, Spring Web, C#, ASP.NET (MVC, Web API, Core, SignalR), SQL, JavaScript, TypeScript, HTML/CSS/SCSS/Less, Angular, Knockout ( **familiar** ) Python, React
+Java, Python, C#, JavaScript, TypeScript, SQL, Angular, React, Knockout
 
 ### Professional strengths
 

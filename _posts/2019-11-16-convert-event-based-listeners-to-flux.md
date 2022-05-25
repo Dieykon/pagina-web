@@ -1,7 +1,7 @@
 ---
 title: ⛓ Convert event-based API to Flux
 date: 2019-11-16 12:00:00 -0400
-categories: [Java]
+categories: [Java, Reactor]
 tags:
   - java
   - flux

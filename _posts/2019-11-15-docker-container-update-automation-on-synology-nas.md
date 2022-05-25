@@ -1,7 +1,7 @@
 ---
 title: 🏗️ Docker container update automation on Synology NAS
 date: 2019-11-15 01:20:00 -0400
-categories: [Synology]
+categories: [Synology, Deployment]
 tags:
   - synology
   - docker

@@ -2,7 +2,7 @@
 title: ☁️ Configuring Synology NAS to use its own domain name. Part 1
 pin: true
 date: 2018-11-22 05:33:24 -0400
-categories: [Synology]
+categories: [Synology, Configuration]
 tags:
   - synology
 ---

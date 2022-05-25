@@ -1,7 +1,7 @@
 ---
 title: 🚀 Deploying Ghost to Synology NAS
 date: 2018-12-04 04:02:54 -0400
-categories: [Synology]
+categories: [Synology, Deployment]
 tags:
   - synology
   - docker

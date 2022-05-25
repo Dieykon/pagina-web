@@ -1,7 +1,7 @@
 ---
 title: 🔌 Adding RAM to Synology DS 218+
 date: 2019-11-09 20:58:52 -0400
-categories: [Synology]
+categories: [Synology, Tuning]
 tags:
   - synology
 ---
